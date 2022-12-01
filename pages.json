@@ -1,0 +1,245 @@
+{
+    "pages": [
+		{
+        "path": "pages/index/index",
+        "style": {
+            "navigationBarTitleText": "管理首页",
+            "enablePullDownRefresh": false,
+            "navigationBarBackgroundColor": "#2E74F4",
+            "navigationBarTextStyle": "white"
+        }
+    },
+	{
+        "path": "pages/user/user",
+        "style": {
+            "navigationBarTitleText": "我的",
+            "enablePullDownRefresh": false
+        }
+    }, {
+        "path": "pages/login/login",
+        "style": {
+            "navigationBarTitleText": "登录",
+            "enablePullDownRefresh": false
+        }
+    }
+        ,{
+            "path" : "pages/setting/setting/setting",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "公司设置",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/ziliao/ziliao/ziliao",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人资料",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/customer/customer/customer",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "客户管理",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/customer/add/add",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "添加客户",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/customer/details/details",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "客户详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/sales/sales/sales",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "订单管理",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/sales/add/add",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "添加销售单",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/sales/details/details",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "销售单详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/sales/editor/editor",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "编辑销售单",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/stock/stock",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "数据",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#2578FF",
+				"navigationBarTextStyle": "white"
+            }
+            
+        }
+        ,{
+            "path" : "pages/salesReturn/salesReturn/salesReturn",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "退货管理",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/salesReturn/add/add",
+			"style" :
+            {
+                "navigationBarTitleText": "添加退货单",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/exchange/exchange/exchange",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "换货单列表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/exchange/details/details",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "换货单详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/salesReturn/details/details",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "退货单详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/salesReturn/Courier/Courier",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "物流状态",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/exchange/add/add",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "添加换货单",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/exchange/Courier/Courier",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "物流状态",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/sales/Courier/Courier",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "物流状态",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/goods/goods/goods",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商品管理",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/goods/add/add",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "添加商品",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+    "globalStyle": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "uni-app",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "backgroundColor": "#FFFFFF",
+        "app-plus": {
+            "background": "#efeff4"
+        }
+    },
+    "tabBar": {
+        "color": "#D0D0D9",
+        "selectedColor": "#2578FF",
+        "borderStyle": "black",
+        "backgroundColor": "#FFFFFF",
+        "list": [{
+                "pagePath": "pages/index/index",
+                "iconPath": "static/image/index.png",
+                "selectedIconPath": "static/image/index-active.png",
+                "text": "首页"
+            },
+            {
+                "pagePath": "pages/user/user",
+                "iconPath": "static/image/user.png",
+                "selectedIconPath": "static/image/user-active.png",
+                "text": "我的"
+            }
+        ]
+    }
+}
